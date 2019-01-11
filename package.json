@@ -1,0 +1,43 @@
+{
+	"name": "@cfware/full-center",
+	"version": "0.1.0",
+	"description": "Web Component to center content vertically and horizontally",
+	"main": "index.js",
+	"scripts": {
+		"test": "xo"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"custom-elements",
+		"flexbox",
+		"html"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/full-center.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/full-center/issues"
+	},
+	"homepage": "https://github.com/cfware/full-center#readme",
+	"devDependencies": {
+		"xo": "^0.23.0"
+	},
+	"xo": {
+		"overrides": [
+			{
+				"files": [
+					"index.js"
+				],
+				"extends": "@cfware/eslint-config-browser"
+			}
+		]
+	},
+	"dependencies": {
+		"@cfware/shadow-element": "^0.2.1"
+	}
+}
