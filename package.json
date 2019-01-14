@@ -26,7 +26,7 @@
 	"homepage": "https://github.com/cfware/full-center#readme",
 	"devDependencies": {
 		"@cfware/eslint-config-browser": "^0.1.0",
-		"xo": "^0.23.0"
+		"xo": "^0.24.0"
 	},
 	"xo": {
 		"overrides": [
