@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/full-center",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Web Component to center content vertically and horizontally",
 	"main": "index.js",
 	"scripts": {
@@ -25,7 +25,7 @@
 	},
 	"homepage": "https://github.com/cfware/full-center#readme",
 	"devDependencies": {
-		"@cfware/eslint-config-browser": "^0.1.0",
+		"@cfware/eslint-config-browser": "^0.1.1",
 		"xo": "^0.24.0"
 	},
 	"xo": {
@@ -39,6 +39,6 @@
 		]
 	},
 	"dependencies": {
-		"@cfware/shadow-element": "^0.2.1"
+		"@cfware/shadow-element": "^0.3.0"
 	}
 }
