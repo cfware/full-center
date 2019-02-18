@@ -8,11 +8,13 @@
 
 Web Component to center content vertically and horizontally.
 
+
 ### Install @cfware/full-center
 
 ```sh
 npm i @cfware/full-center
 ```
+
 
 ## Usage
 
@@ -23,10 +25,15 @@ import '@cfware/full-center';
 
 Use to center content:
 ```html
-<full-center>
-	<div>This will be in the center of the page.</div>
-</full-center>
+<div class="container-class" style="display: flex">
+	<full-center>
+		<div>This will be in the center of the container element.</div>
+	</full-center>
+</div>
 ```
+
+The parent element must have the style `display: flex` for this element to work.
+
 
 ## Running tests
 

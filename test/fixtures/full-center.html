@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>&lt;full-center&gt; test</title>
+		<script type="module" src="full-center.js"></script>
+		<style>
+			html, body {
+				display: inline-block!important;
+				margin: 0;
+				width: -moz-fit-content;
+			}
+
+			div {
+				height: 216px;
+				width: 216px;
+				display: flex;
+				background: #eee;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="test">
+			<full-center>
+				<svg width="16" height="16" style="background: blue"></svg>
+			</full-center>
+		</div>
+	</body>
+</html>
