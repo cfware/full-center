@@ -34,7 +34,7 @@
 		"chromedriver": "^2.46.0",
 		"fastify": "^1.14.1",
 		"fastify-babel": "^1.1.0",
-		"fastify-static": "^1.1.0",
+		"fastify-static": "^2.3.4",
 		"geckodriver": "^1.15.1",
 		"nyc": "^13.3.0",
 		"xo": "^0.24.0"
