@@ -4,6 +4,7 @@
 	"description": "Web Component to center content vertically and horizontally",
 	"main": "full-center.js",
 	"scripts": {
+		"release": "standard-version --sign",
 		"test": "xo && nyc ava -v"
 	},
 	"author": "Corey Farrell",
@@ -32,6 +33,7 @@
 		"chromedriver": "^2.46.0",
 		"geckodriver": "^1.15.1",
 		"nyc": "^13.3.0",
+		"standard-version": "^5.0.0",
 		"xo": "^0.24.0"
 	},
 	"xo": {
