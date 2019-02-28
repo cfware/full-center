@@ -26,7 +26,7 @@
 	},
 	"homepage": "https://github.com/cfware/full-center#readme",
 	"devDependencies": {
-		"@cfware/ava-selenium-manager": "^0.1.2",
+		"@cfware/ava-selenium-manager": "^0.2.0",
 		"@cfware/eslint-config-browser": "^0.1.2",
 		"@cfware/fastify-test-helper": "^0.1.0",
 		"ava": "^1.2.1",
