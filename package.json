@@ -26,14 +26,14 @@
 	},
 	"homepage": "https://github.com/cfware/full-center#readme",
 	"devDependencies": {
-		"@cfware/ava-selenium-manager": "^0.1.2",
+		"@cfware/ava-selenium-manager": "^0.2.0",
 		"@cfware/eslint-config-browser": "^0.1.2",
-		"@cfware/fastify-test-helper": "^0.1.0",
+		"@cfware/fastify-test-helper": "^0.2.0",
 		"ava": "^1.2.1",
 		"chromedriver": "^2.46.0",
-		"geckodriver": "^1.15.1",
+		"geckodriver": "^1.16.0",
 		"nyc": "^13.3.0",
-		"standard-version": "^5.0.0",
+		"standard-version": "^5.0.1",
 		"xo": "^0.24.0"
 	},
 	"xo": {
@@ -47,6 +47,6 @@
 		]
 	},
 	"dependencies": {
-		"lighterhtml": "^0.9.1"
+		"lighterhtml": "^0.9.2"
 	}
 }
