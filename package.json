@@ -25,6 +25,9 @@
 		"url": "https://github.com/cfware/full-center/issues"
 	},
 	"homepage": "https://github.com/cfware/full-center#readme",
+	"dependencies": {
+		"@cfware/shadow-element": "^0.4.1"
+	},
 	"devDependencies": {
 		"@cfware/ava-selenium-manager": "^0.2.0",
 		"@cfware/eslint-config-browser": "^0.1.2",
@@ -45,8 +48,5 @@
 				"extends": "@cfware/eslint-config-browser"
 			}
 		]
-	},
-	"dependencies": {
-		"lighterhtml": "^0.9.2"
 	}
 }

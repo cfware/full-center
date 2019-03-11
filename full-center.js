@@ -1,10 +1,8 @@
-import {render, html} from 'lighterhtml';
+import {ShadowElement, html} from '@cfware/shadow-element';
 
-class FullCenter extends HTMLElement {
-	constructor() {
-		super();
-
-		render(this.attachShadow({mode: 'closed'}), () => html`
+class FullCenter extends ShadowElement {
+	get template() {
+		return html`
 			<style>
 				:host {
 					display: flex;
@@ -28,8 +26,8 @@ class FullCenter extends HTMLElement {
 				<div class=grow/>
 			</div>
 			<div class=grow/>
-		`);
+		`;
 	}
 }
 
-customElements.define('full-center', FullCenter);
+FullCenter.define('full-center');
