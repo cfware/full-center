@@ -30,7 +30,7 @@
 	},
 	"devDependencies": {
 		"@cfware/ava-selenium-manager": "^0.2.0",
-		"@cfware/eslint-config-browser": "^0.1.2",
+		"@cfware/eslint-config-browser": "^0.2.0",
 		"@cfware/fastify-test-helper": "^0.2.0",
 		"ava": "^1.2.1",
 		"chromedriver": "^2.46.0",
