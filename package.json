@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/full-center",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Web Component to center content vertically and horizontally",
 	"main": "full-center.js",
 	"scripts": {
