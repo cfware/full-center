@@ -33,7 +33,7 @@
 		"@cfware/eslint-config-browser": "^0.2.1",
 		"@cfware/fastify-test-helper": "^0.2.2",
 		"ava": "^1.3.1",
-		"chromedriver": "^73.0.0",
+		"chromedriver": "^74.0.0",
 		"geckodriver": "^1.16.0",
 		"nyc": "^14.0.0",
 		"standard-version": "^5.0.2",
