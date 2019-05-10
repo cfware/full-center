@@ -26,7 +26,7 @@
 	},
 	"homepage": "https://github.com/cfware/full-center#readme",
 	"dependencies": {
-		"@cfware/shadow-element": "^0.5.3"
+		"@cfware/shadow-element": "^0.6.0"
 	},
 	"devDependencies": {
 		"@cfware/ava-selenium-manager": "^0.2.1",
