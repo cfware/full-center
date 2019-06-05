@@ -9,9 +9,6 @@
 	},
 	"author": "Corey Farrell",
 	"license": "MIT",
-	"files": [
-		"full-center.js"
-	],
 	"keywords": [
 		"custom-elements",
 		"flexbox",
