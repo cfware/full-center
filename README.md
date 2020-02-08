@@ -35,15 +35,6 @@ Use to center content:
 The parent element must have the style `display: flex` for this element to work.
 
 
-## Running tests
-
-Testing is provided by xo.
-
-```sh
-npm install
-npm test
-```
-
 [npm-image]: https://img.shields.io/npm/v/@cfware/full-center.svg
 [npm-url]: https://npmjs.org/package/@cfware/full-center
 [travis-image]: https://travis-ci.org/cfware/full-center.svg?branch=master
