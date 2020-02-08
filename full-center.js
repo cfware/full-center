@@ -1,7 +1,7 @@
-import {ShadowElement, html} from '@cfware/shadow-element';
+import {ShadowElement, html, template} from '@cfware/shadow-element';
 
 class FullCenter extends ShadowElement {
-	get template() {
+	get [template]() {
 		return html`
 			<style>
 				:host {
