@@ -1,6 +1,6 @@
 # @cfware/full-center
 
-[![Travis CI][travis-image]][travis-url]
+![Tests][tests-status]
 [![Greenkeeper badge][gk-image]](https://greenkeeper.io/)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -37,8 +37,7 @@ The parent element must have the style `display: flex` for this element to work.
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/full-center.svg
 [npm-url]: https://npmjs.org/package/@cfware/full-center
-[travis-image]: https://travis-ci.org/cfware/full-center.svg?branch=master
-[travis-url]: https://travis-ci.org/cfware/full-center
+[tests-status]: https://github.com/cfware/full-center/workflows/Tests/badge.svg
 [gk-image]: https://badges.greenkeeper.io/cfware/full-center.svg
 [downloads-image]: https://img.shields.io/npm/dm/@cfware/full-center.svg
 [downloads-url]: https://npmjs.org/package/@cfware/full-center

@@ -7,7 +7,9 @@
 	"scripts": {
 		"release": "standard-version --sign",
 		"pretest": "cfware-lint .",
-		"test": "nyc node test.js"
+		"tests-only": "nyc -s --no-check-coverage node test.js",
+		"test": "npm run -s tests-only",
+		"posttest": "nyc report"
 	},
 	"engines": {
 		"node": ">=13.10.0"
