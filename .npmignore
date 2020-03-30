@@ -3,7 +3,7 @@ coverage
 .nyc_output
 nyc.config.cjs
 package
-.travis.yml
+.github
 fixtures
 tap-snapshots
 test.js
