@@ -1,19 +1,6 @@
-# @cfware/full-center
-
-![Tests][tests-status]
-[![Greenkeeper badge][gk-image]](https://greenkeeper.io/)
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![MIT][license-image]](LICENSE)
+# @cfware/full-center [![NPM Version][npm-image]][npm-url]
 
 Web Component to center content vertically and horizontally.
-
-
-### Install @cfware/full-center
-
-```sh
-npm i @cfware/full-center
-```
 
 
 ## Usage
@@ -37,8 +24,3 @@ The parent element must have the style `display: flex` for this element to work.
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/full-center.svg
 [npm-url]: https://npmjs.org/package/@cfware/full-center
-[tests-status]: https://github.com/cfware/full-center/workflows/Tests/badge.svg
-[gk-image]: https://badges.greenkeeper.io/cfware/full-center.svg
-[downloads-image]: https://img.shields.io/npm/dm/@cfware/full-center.svg
-[downloads-url]: https://npmjs.org/package/@cfware/full-center
-[license-image]: https://img.shields.io/npm/l/@cfware/full-center.svg

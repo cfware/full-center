@@ -1,8 +1,6 @@
 *.tgz
 coverage
-.nyc_output
 nyc.config.cjs
-package
 .github
 fixtures
 tap-snapshots
