@@ -1,4 +1,4 @@
-import {ShadowElement, html, template} from '@cfware/shadow-element';
+import ShadowElement, {html, template, define} from '@cfware/shadow-element';
 
 class FullCenter extends ShadowElement {
 	get [template]() {
@@ -30,4 +30,4 @@ class FullCenter extends ShadowElement {
 	}
 }
 
-FullCenter.define('full-center');
+FullCenter[define]('full-center');

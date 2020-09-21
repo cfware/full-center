@@ -1,5 +1,5 @@
 import path from 'path';
-import {promises as fs} from 'fs';
+import fs from 'fs/promises';
 import {fileURLToPath} from 'url';
 
 import t from 'libtap';
